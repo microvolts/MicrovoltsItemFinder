@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microvolts Item Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Microvolts Item Finder</h1>
+    <h3>0.1 Beta version - <a href="https://github.com/microvolts">https://github.com/microvolts</a></h3>
+    
+    <div class="filters">
+        <label for="typeFilter">Inventory Type:</label>
+        <select id="typeFilter" onchange="filterItems()" autocomplete="off">
+            <option value="">Select...</option>
+            <option value="1">Melee</option>
+            <option value="2">Rifle</option>
+            <option value="3">Shotgun</option>
+            <option value="4">Sniper</option>
+            <option value="5">Minigun</option>
+            <option value="6">Bazooka</option>
+            <option value="7">Grenade</option>
+            <option value="9">Set</option>
+            <option value="10">Set package</option>
+            <option value="11">Hair</option>
+            <option value="12">Face</option>
+            <option value="13">Top</option>
+            <option value="14">Bottom</option>
+            <option value="15">Legs</option>
+            <option value="16">Hands</option>
+            <option value="17">Shoes</option>
+            <option value="19">Head</option>
+            <option value="20">Waist</option>
+            <option value="21">Back</option>
+            <option value="24">Convenience</option>
+            <option value="25">Diorama</option>
+            <option value="27">?</option>
+        </select>
+    </div>
+    
+    <div id="itemsContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

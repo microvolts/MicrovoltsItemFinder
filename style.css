@@ -1,0 +1,23 @@
+img {
+    object-fit: none;
+    object-position: 0 0;
+}
+.item {
+    margin-bottom: 20px;
+}
+body {
+    font-family: Arial, sans-serif; margin: 20px;
+}
+.item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.item img {
+    margin-right: 10px;
+}
+.filters {
+    margin-bottom: 20px;
+}
